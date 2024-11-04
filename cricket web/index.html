@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Cricket World</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">Cricket World</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item"><a style="text-decoration: none; color: white;" href="#Home">Home</a>
+                    </li>
+                    <li class="menu-list-item"><a style="text-decoration: none; color: white;"
+                            href="#PlayerProfiles">Player Profiles</a></li>
+                    <li class="menu-list-item"><a style="text-decoration: none; color: white;" href="#TopMatches">Top
+                            Matches</a></li>
+                    <li class="menu-list-item"><a style="text-decoration: none; color: white;" href="#FanZone">Fan
+                            Zone</a></li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="img/port.jpg" alt="">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+    </div>
+
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/cricket-bg.jpg');">
+                <img class="featured-title" src="img/cricket-title.png" alt="">
+                <p class="featured-desc">Welcome to the world of cricket! Discover the legends of the game, their
+                    stories, and the moments that made history.</p>
+                <button class="featured-button"><a style="text-decoration: none; color: white;"
+                        href="https://www.youtube.com/watch?v=example" target="_blank">Watch Highlights</a></button>
+            </div>
+
+            <div id="Home" class="movie-list-container">
+                <h1 class="movie-list-title">HOME</h1>
+                <p class="intro">Cricket is more than just a sport; it's a passion that unites millions across the
+                    globe. Explore the game through the eyes of its greatest players.</p>
+            </div>
+
+            <div id="PlayerProfiles" class="player-profiles">
+                <h1 class="movie-list-title">PLAYER PROFILES</h1>
+                <div class="profile-wrapper">
+                    <div class="profile-item">
+                        <img class="profile-image" src="players/player1.webp" alt="Player 1">
+                        <h3>Sachin Tendulkar</h3>
+                        <p>Career Statistics: 100 matches, 3000 runs</p>
+                        <p>Notable Achievements: Player of the Year 2022</p>
+                    </div>
+                    <div class="profile-item">
+                        <img class="profile-image" src="players/player2.jpg" alt="Player 2">
+                        <h3>Virat Kohli</h3>
+                        <p>Career Statistics: 200 matches, 5000 runs</p>
+                        <p>Notable Achievements: World Cup Winner 2019</p>
+                    </div>
+                    <div class="profile-item">
+                        <img class="profile-image" src="players/player3.jpg" alt="Player 3">
+                        <h3>Player Name 3</h3>
+                        <p>Career Statistics: 200 matches, 5000 runs</p>
+                        <p>Notable Achievements: World Cup Winner 2019</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="TopMatches" class="movie-list-container">
+                <h1 class="movie-list-title">TOP MATCHES</h1>
+                <div class="match-list-wrapper">
+                    <div class="match-list-item">
+                        <h3>Match Title 1</h3>
+                        <p>Description of the match goes here.</p>
+                        <iframe class="match-highlight" src="https://www.youtube.com/embed/example" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="match-list-item">
+                        <h3>Match Title 2</h3>
+                        <p>Description of the match goes here.</p>
+                        <iframe class="match-highlight" src="https://www.youtube.com/embed/example" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <!-- Add more matches as needed -->
+                </div>
+            </div>
+
+            <div id="FanZone" class="fan-zone">
+                <h1 class="movie-list-title">FAN ZONE</h1>
+                <p>Share your favorite player stories and vote for the greatest players of all time!</p>
+                <form>
+                    <label for="story">Share your story:</label>
+                    <textarea id="story" rows="4" placeholder="Tell us about your favorite player..."></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="voting">
+                    <h3>Vote for the Greatest Player:</h3>
+                    <select>
+                        <option value="player1">Player Name 1</option>
+                        <option value="player2">Player Name 2</option>
+                        <!-- Add more player options as needed -->
+                    </select>
+                    <button type="button">Vote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

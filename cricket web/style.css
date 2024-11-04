@@ -1,0 +1,198 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #151515;
+    padding: 15px 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-container {
+    flex-grow: 1;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu-list-item a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 50px;
+    background-color: #202020;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-menu-icon {
+    color: white;
+    font-size: 24px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+/* Container Styles */
+.container {
+    margin-left: 60px; /* adjust according to sidebar width */
+    padding: 20px;
+}
+
+.content-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.featured-content {
+    position: relative;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.featured-title {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.featured-desc {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.featured-button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.movie-list-title {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.intro {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.player-profiles {
+    margin-top: 20px;
+}
+
+.profile-wrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.profile-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.profile-image {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.match-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.match-list-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.match-highlight {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+/* Fan Zone Styles */
+.fan-zone {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"],
+button[type="button"] {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.voting {
+    margin-top: 20px;
+}
